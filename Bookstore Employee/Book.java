@@ -1,10 +1,18 @@
 package OOPFinalExam;
 
 public class Book {
+    private String authorName;
     private String title;
     private double price;
     private int yearOfPublication;
-    private String authorName;
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public void setAuthorName(String authorName) {
+        this.authorName = authorName;
+    }
 
     public String getTitle() {
         return title;
@@ -28,14 +36,6 @@ public class Book {
 
     public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
-    }
-
-    public String getAuthorName() {
-        return authorName;
-    }
-
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
     }
 
 
